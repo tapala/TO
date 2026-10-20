@@ -1,0 +1,49 @@
+
+@startuml
+title Konwerter walut NBP - diagram klas
+
+skinparam classAttributeIconSize 0
+skinparam linetype ortho
+
+class Program {
+    - NbpUrl : string
+    - Main() : Task
+    - TryParseAmount(input : string, amount : decimal) : bool
+    - PrintCurrencies(currencies : Dictionary<string, Currency>) : void
+}
+
+class NbpRateProvider {
+    + DownloadRatesAsync() : Task<Dictionary<string, Currency>>
+}
+
+class Currency {
+    + Code : string
+    + Name : string
+    + RateInPln : decimal
+}
+
+class HttpClient <<.NET>> {
+    + GetStringAsync(url : string) : Task<string>
+}
+
+class XDocument <<.NET>> {
+    + Parse(xml : string) : XDocument
+}
+
+class XElement <<.NET>> {
+    + Element(name : string) : XElement
+    + Value : string
+}
+
+
+Program ..> NbpRateProvider : pobiera kursy
+Program ..> Currency : wykorzystuje
+Program ..> InvalidDataException : obsługa błędów
+
+NbpRateProvider ..> HttpClient : pobiera XML
+NbpRateProvider ..> XDocument : parsuje XML
+NbpRateProvider ..> XElement : odczytuje pozycje
+NbpRateProvider ..> Currency : tworzy obiekty
+
+
+@enduml

@@ -1,0 +1,14 @@
+C:\Users\kaczper\Desktop\KonwerterWalut\bin\Debug\net8.0\KonwerterWalut.exe
+C:\Users\kaczper\Desktop\KonwerterWalut\bin\Debug\net8.0\KonwerterWalut.deps.json
+C:\Users\kaczper\Desktop\KonwerterWalut\bin\Debug\net8.0\KonwerterWalut.runtimeconfig.json
+C:\Users\kaczper\Desktop\KonwerterWalut\bin\Debug\net8.0\KonwerterWalut.dll
+C:\Users\kaczper\Desktop\KonwerterWalut\bin\Debug\net8.0\KonwerterWalut.pdb
+C:\Users\kaczper\Desktop\KonwerterWalut\obj\Debug\net8.0\KonwerterWalut.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaczper\Desktop\KonwerterWalut\obj\Debug\net8.0\KonwerterWalut.AssemblyInfoInputs.cache
+C:\Users\kaczper\Desktop\KonwerterWalut\obj\Debug\net8.0\KonwerterWalut.AssemblyInfo.cs
+C:\Users\kaczper\Desktop\KonwerterWalut\obj\Debug\net8.0\KonwerterWalut.csproj.CoreCompileInputs.cache
+C:\Users\kaczper\Desktop\KonwerterWalut\obj\Debug\net8.0\KonwerterWalut.dll
+C:\Users\kaczper\Desktop\KonwerterWalut\obj\Debug\net8.0\refint\KonwerterWalut.dll
+C:\Users\kaczper\Desktop\KonwerterWalut\obj\Debug\net8.0\KonwerterWalut.pdb
+C:\Users\kaczper\Desktop\KonwerterWalut\obj\Debug\net8.0\KonwerterWalut.genruntimeconfig.cache
+C:\Users\kaczper\Desktop\KonwerterWalut\obj\Debug\net8.0\ref\KonwerterWalut.dll
