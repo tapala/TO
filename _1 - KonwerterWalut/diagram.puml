@@ -38,7 +38,6 @@ class XElement <<.NET>> {
 
 Program ..> NbpRateProvider : pobiera kursy
 Program ..> Currency : wykorzystuje
-Program ..> InvalidDataException : obsługa błędów
 
 NbpRateProvider ..> HttpClient : pobiera XML
 NbpRateProvider ..> XDocument : parsuje XML
